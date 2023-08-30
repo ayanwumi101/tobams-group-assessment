@@ -1,0 +1,127 @@
+.contact-form-container{
+    width: 90%;
+    height: 750px;
+    margin: 50px auto;
+    background-image: url('../../assets/contact-bg.svg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 32px;
+}
+
+.contact-form-sub-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.profile-container{
+    width: 37%;
+    height: 365px;
+    border-radius: 0px 32px 0px 32px;
+    background: rgba(19, 19, 19, 0.1);
+    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.profile-container section{
+    max-width: 325px;
+    margin: 20px auto;
+}
+
+.profile-container section p{
+    font-size: 15px;
+}
+
+.profile-container .contact{
+    font-weight: bold;
+}
+
+.logo-container{
+
+}
+
+.form-container{
+    width: 60%;
+    height: 750px;
+    border-radius: 0px 32px 32px 0px;
+    background: rgba(19, 19, 19, 0.1);
+    backdrop-filter: blur(35px);
+    -webkit-backdrop-filter: blur(35px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-sub-container{
+    width: 90%;
+    margin: auto;
+}
+
+.form-sub-container header p{
+    color: rgba(98, 98, 98, 1);
+    font-size: 15px;
+}
+
+.form-sub-container header h2{
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.form{
+    width: 100%;
+}
+
+.form .first-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%;
+    /* gap: 35px; */
+}
+
+.first-row input{
+    margin-bottom: 25px;
+}
+
+.form .second-row{
+    margin-bottom: 25px;
+}
+
+.form textarea{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 25px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .contact-form-container{
+        height: auto;
+    }
+
+    .form-container{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .contact-form-sub-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-container, .form-container{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .second-row input{
+        max-width: 280px;
+    }
+}

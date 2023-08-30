@@ -1,0 +1,38 @@
+.newsletter-container{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.newsletter-container h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.newsletter-container section{
+    max-width: 850px;
+    margin: auto;
+    line-height: 25px;
+}
+
+.action-btns-container{
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .action-btns-container{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .action-btns-container section{
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+}
