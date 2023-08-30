@@ -1,8 +1,3 @@
-# React + Vite
+# Tobams Group Frontend Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I created the react app was created using vite and the only external package i installed was react-icons. Inside the src folder, we have the components folder, pages folder and assets folder. The components folder contains components which can be reuseable in other pages, the only thing which is needed to pass to them is their props. The pages folder contains all the pages and since the assessment has only a single page, i created only one folder in it, whic is the contact us folder. The assets folder contains all the images that i used in the project which were gotten from the figma design. I made sure that i splitted the page into reusable components and I made is easier to use and customize. I also made sure that the page looks responsive on mobile devices.
